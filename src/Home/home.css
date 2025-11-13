@@ -1,0 +1,142 @@
+/* General Styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    height: 100%;
+    overflow: auto; /* Allow scrolling */
+}
+
+/* Home Container - Ensures Scrollability */
+.home-container {
+    width: 100%;
+    min-height: 100vh; /* Ensure it covers the full viewport */
+    display: flex;
+   background-color: #222;
+    flex-direction: column; /* Stack elements properly */
+    overflow-y: auto; /* Enable vertical scrolling */
+}
+
+/* Navbar */
+.header_section {
+    background-color: #222;
+    padding: 15px 0;
+}
+
+.navbar {
+    display: flex;
+    margin-top: -4px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10 30px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: black;
+    color: white;
+    z-index: 1000;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin-top: 20px;
+    gap: 20px;
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 15px;
+    transition: background 0.3s ease;
+}
+
+.nav-links a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+}
+
+/* Slider Section */
+.slider_section {
+    margin-top: 42px; /* Ensure it clears navbar */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 450px; /* Ensure it does not restrict scrolling */
+    background: black;
+}
+
+.carousel {
+    width: 100%;
+    max-width: 1000px;
+    height: 450px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: #000; /* Fallback if image doesn't load */
+}
+
+/* Make sure the image fills the container without distortion */
+.carousel img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: opacity 0.5s ease-in-out;
+}
+
+
+/* Product Section */
+.container {
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px; /* Ensure it appears below the slider */
+}
+
+/* Product Box */
+.product {
+    color: #222;
+    border: 1px solid #ccc;
+    padding: 30px;
+    margin: 10px;
+    width: 200px;
+    display: inline-block;
+    background-color: white;
+}
+
+/* Image inside Product */
+.image {
+    height: 110px;
+    object-fit: cover;
+    width: 140px;
+    margin-bottom: 10px;
+    max-height: 150px;
+}
+
+/* Button Style */
+#btnstyle3 {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+

@@ -1,0 +1,51 @@
+
+#main1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  /* background-color: #f4f4f4; */
+  background-image: url("./peakpx.jpg"); /* Correct path */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+.addUser1 {
+    /* background-color: white; */
+    background-color: rgba(255, 255, 255, 0.2);
+    width: 25%;
+    margin: 50px auto;
+    color: black;
+    padding: 40px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(5px); 
+  }
+  .addUserForm .inputGroup {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .addUserForm .inputGroup label {
+    margin-top: 5px;
+  }
+  
+  .addUserForm .inputGroup input {
+    margin-bottom: 5px;
+    padding: 10px;
+  }
+  .addUserForm .inputGroup button {
+    margin-top: 8px;
+  }
+  .addUser h3 {
+    margin-top: 30px;
+    text-align: center;
+    font-weight: bold;
+    color: darkcyan;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+  }
+  

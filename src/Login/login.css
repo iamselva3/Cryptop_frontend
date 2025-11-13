@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    overflow: hidden; /* Prevents scrolling */
+}
+
+
+#main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* background-color: #f4f4f4; */
+    background-image: url("./peakpx.jpg"); /* Correct path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+  
+  #paper{
+    padding: 30px;
+    max-width: 400px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    background: rgba(255, 255, 255, 0.3); /* White with transparency */
+    backdrop-filter: blur(1px);
+  }
+  
+  .input {
+    border-radius: 4px;
+    height: 35px;
+    width: 55vh;
+    border: none; /* Removes default border */
+    outline: none; /* Removes focus outline */
+    box-shadow: none; /* Prevents unwanted shadow */
+
+  }
+  
+  .button {
+    margin-top: 20px;
+    background-color: #007bff !important;
+    color: #fff !important;
+  }
+  
+  .button:hover {
+    background-color: #0056b3 !important;
+  }
+  
+  .link {
+    margin-top: 15px;
+  }
+  

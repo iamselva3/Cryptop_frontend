@@ -1,0 +1,124 @@
+.wallet-container {
+    background: linear-gradient(135deg, #1e1e2f, #2a2a3b);
+    color: white;
+    padding: 50px 10%;
+    text-align: center;
+  }
+  
+  .wallet-container h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #ffcc00;
+  }
+  
+  .empty-wallet {
+    font-size: 1.2rem;
+    color: #bbb;
+  }
+  
+  .wallet-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .wallet-card {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    width: 250px;
+    margin: 15px;
+    text-align: center;
+  }
+  
+  .wallet-card img {
+    width: 100%;
+    border-radius: 5px;
+  }
+  
+  .wallet-card h3 {
+    color: #ffcc00;
+    margin-top: 10px;
+  }
+  
+  .wallet-card p {
+    color: #ddd;
+  }
+  
+  .delete-btn {
+    background: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  .delete-btn:hover {
+    background: #ff1a1a;
+  }
+  
+  /* Pay Now Button */
+.pay-btn {
+    background-color: #ffcc00;
+    color: #000;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 200px;
+    text-align: center;
+    transition: background 0.3s ease, transform 0.2s ease;
+  }
+  
+  .pay-btn:hover {
+    background-color: #ffb700;
+    transform: scale(1.05);
+  }
+  
+  .pay-btn:active {
+    background-color: #e6a800;
+    transform: scale(0.98);
+  }
+  
+  /* Total Section */
+  .total-section {
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .total-section h2 {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+
+  
+.quantity-control {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 10px 0;
+  }
+  
+  .quantity-control button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+  
+  .quantity-control button:hover {
+    background-color: #0056b3;
+  }
+  
+  
